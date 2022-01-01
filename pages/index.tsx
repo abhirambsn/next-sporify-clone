@@ -8,6 +8,9 @@ import Sidebar from "../components/Sidebar";
 const Home: NextPage = () => {
   return (
     <div className="bg-black h-screen overflow-hidden">
+      <Head>
+        <title>Spotify</title>
+      </Head>
       <main className="flex">
         <Sidebar />
         <Main />
