@@ -29,7 +29,7 @@ function login({ providers }) {
 
 export default login;
 
-export async function getServerSideProps(context: NextPageContext) {
+export async function getServerSideProps() {
   const providers = await getProviders();
   return {
     props: {
